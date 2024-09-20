@@ -1,0 +1,98 @@
+
+.header {
+border-bottom: solid 1px gray;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background-color: white;
+}
+.header .header__container {
+display: flex;
+justify-content: space-between;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.header .header__container .header__logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .header__container .header__logo .header__logo-part1 {
+    font-family: "logofont";
+    font-weight: 300;
+}
+
+.header .header__container .header__logo .header__logo-part2 {
+    font-family: "logofont";
+    font-weight: 600;
+}
+
+.header .header__container .header__logo .header__logo-pic {
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.header .header__container .header__navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -300px;
+    margin-top:22px;
+}
+
+.header__navigation div:last-child {
+    color: rgb(15, 220, 15);
+}
+
+.header .header__container .header__navigation .header__navigation-list {
+    margin-right: 15px;
+}
+
+.header .header__container .header__navigation .header__navigation-fire {
+    width: 17px;
+    height: 17px;
+}
+
+.header .header__container .header__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 19px;
+}
+
+.header .header__container .header__buttons .header__buttons-pic {
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+}
+
+
+@font-face {
+    font-family:"logofont";
+    src: url(Makarenkov.ttf);
+}
+
+.section1 {
+    padding-top: 80px;
+}
+
+.section1 .name {
+    text-align: center;
+}
+
+.section1 .girlpic {
+    margin-top: -170px;
+    margin-left: 150px;
+    margin-bottom: -80px;
+}
+
+
+.message .fixedmessage {
+    position: fixed;
+    top: 700px;
+    left: 1400px;
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px gray;
+}
